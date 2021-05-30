@@ -1,0 +1,23 @@
+###
+get http://localhost:3000?username=chaiyaphat&email=chai@gmail.com
+Content-Type: application/json
+
+
+### Create Users
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username":"chaiyaphat",
+  "name":"goemon",
+  "age":10
+}
+
+### Calculate cunber
+POST  http://localhost:3000/calculate/minus
+Content-Type: application/json
+
+{
+  "number1":"10",
+  "number2":20
+}

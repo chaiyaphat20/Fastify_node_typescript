@@ -1,0 +1,2 @@
+npm i -S fastify ts-node
+npm i -D typescript @types/node
